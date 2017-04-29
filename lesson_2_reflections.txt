@@ -1,0 +1,5 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+
+A .git folder is created insinde my reflections folder. We need to do it so we can make a repository for
+our project and git can store in the .git folder all the metadata it needs for keep tracking all the different
+versions of our project files.
