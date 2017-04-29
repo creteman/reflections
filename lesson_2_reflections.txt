@@ -3,3 +3,8 @@ Q1: What happens when you initialize a repository? Why do you need to do it?
 A .git folder is created insinde my reflections folder. We need to do it so we can make a repository for
 our project and git can store in the .git folder all the metadata it needs for keep tracking all the different
 versions of our project files.
+
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+In the staging area you add the files you have changed temporarily, so later you can see in which files you have made 
+changes and decide which files you want to add into the repository in a single commit.
