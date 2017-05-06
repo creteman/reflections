@@ -8,3 +8,21 @@ Q2: How is the staging area different from the working directory and the reposit
 
 In the staging area you add the files you have changed temporarily, so later you can see in which files you have made 
 changes and decide which files you want to add into the repository in a single commit.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff to compare the working area to the staging area and the changes on the files.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to make a change and leave your project intact you can create a branch and do changes there.
+
+Q5: How do the diagrams help you visualize the branch structure?
+
+It helps me visualize the stracture of the git repository and in what changes I am working on the master project.
+
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that we combining the changes we have made on each branch together. We 
+represent it in the diagram as a new commit pointing to the head of each branch because we want to show the merge of 
+the two branches.
